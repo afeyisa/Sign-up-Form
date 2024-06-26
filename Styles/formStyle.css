@@ -1,0 +1,131 @@
+
+
+@font-face {
+    font-family: Norse-bold;
+    src: url('../assets/Norse-Bold.otf');
+  }
+  
+
+  body{
+    margin: 0;
+  }
+.container{
+    display: flex;    
+}
+
+
+.left-container{
+    display: flex;
+    background-image: url('../assets/home.jpg');
+    font-family: Norse-bold, sans-serif;
+    width: 50em;
+    justify-content: center;
+
+}
+img{
+    padding: 10px;
+}
+
+
+.left-container div{
+    display: flex;
+    margin-top: 30%;
+    width: 100%;
+    height: 10em;
+    height: 120px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.right-container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(247, 246, 245);
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+
+
+.right-container p{
+    padding-left: 5%;
+}
+
+
+.form-inputs{
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    
+}
+
+
+.form-inputs label{
+    font-weight: 500;
+}
+
+
+.form-input-children{
+    display: flex;
+    gap:5%;
+    width: 70%;
+}
+
+
+.form-input-children div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+
+
+.form-input-children label{
+    font-size: 0.7em;
+    font-weight: 600;
+
+}
+
+.form-input-children input{
+    height: 25px;
+}
+
+.login-button{
+    border-style: none;
+    color: rgb(2, 104, 2);
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+.submit-button{
+    background-color:rgb(2, 104, 2);
+    color: white;
+    padding: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 3%;
+    border-style: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+    
+}
+
+
+.submit-button:hover{
+    background-color:rgb(2, 85, 2);
+}
+
+
+
+  
+  
