@@ -68,15 +68,15 @@ input {
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 5px;
-    border-color: wheat;
+    border-color: #E5E7EB;
   }
   
-  input:invalid {
+  .password:invalid {
     border-color: red;
   }
   
   input:focus{
-    border-color: rgb(64, 111, 240);
+    border-color: blue;
     outline: none;
   }
 
@@ -122,7 +122,7 @@ input {
 
 
 .submit-button{
-    background-color:rgb(2, 104, 2);
+    background-color: #596D48;
     color: white;
     padding: 15px;
     padding-left: 5%;
