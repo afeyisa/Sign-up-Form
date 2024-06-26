@@ -63,6 +63,22 @@ img{
     
 }
 
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: wheat;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:focus{
+    border-color: rgb(64, 111, 240);
+    outline: none;
+  }
 
 .form-inputs label{
     font-weight: 500;
@@ -89,6 +105,7 @@ img{
 .form-input-children label{
     font-size: 0.7em;
     font-weight: 600;
+    color: rgb(80, 68, 68);
 
 }
 
